@@ -36,6 +36,27 @@ app.get("/signup", (req, res)=>{
 
 });
 
+app.get("/login", (req, res)=>{
+
+    const{Email, Password} = req.body;
+    var data= database.push(req.body);
+
+    const user = database.find(user => user.Email === Email && user.Password === Password);
+
+    if(user){
+        res.status(200).json({
+            status: 200,
+            message: "Login Successfully"
+        });
+
+    }else{
+        res.status(401).json({
+            status: 401,
+            message: "invalid credentials"
+        });
+    }
+})
+
 
 app.listen(Port, () => {
     console.log(`app is running on : ${Port} `);
