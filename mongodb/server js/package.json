@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "mongodb": "^6.5.0",
+    "mongoose": "^0.0.2-security"
+  },
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "Shahbaz Yasin",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "practice",
+    "call"
+  ],
+  "author": "Shahbaz Yasin",
+  "license": "ISC"
+}
