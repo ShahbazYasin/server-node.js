@@ -21,12 +21,12 @@ mongoose.connect(process.evn.MONGO_DB).then(()=> console.log("connected!"));
 
 
 const SignupModel = new Schema({
-    email: String,
-    DOB: Date,
-    name: String,
-    fatherName: String,
-    gender: String,
-    password: String,
+    email: "String",
+    DOB: "Date",
+    name: "String",
+    fatherName: "String",
+    gender: "String",
+    password: "String",
 });
 
 

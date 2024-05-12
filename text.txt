@@ -1,0 +1,31 @@
+Node.js class9
+12-5-2024
+Sunday
+
+Postman: API ko check krne k liye ya end point ko check krne k liye.
+API: client or data base k between request le kr data base ko dena or waha se data le kr clients ko dena.
+Mongose: Data base se connection banane k liye use hota.
+Express.js: server create krne k liye use hota h.
+
+server create (using express)
+server start
+data base connect (using mongose)
+created api for sign up user
+converted password in Hash (using bcrypt)
+save data in data base
+created login api
+find user in form data base using email
+compare password using (bcrypt)
+created Token using jwt (jsonwebtoken)
+send cookies in response using (cookie-parser)
+
+token: user ka data or type
+cookies: browser k sath automatic jati hai 
+
+
+next class
+refresh token
+parmenant token
+file upload
+
+
